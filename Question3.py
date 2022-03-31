@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 
 st.set_page_config(layout = 'wide')
-st.header("Please change the theme to light mode as some of the label in graphs are in black colour which might not visible in dark mode. The theme can be changed by click the top right button and click on settings!!")
 
 st.title("Question 3")
 variable = ['Credit_Card_Exceed_Months',	'Loan_Amount'	,'Loan_Tenure_Year','Credit_Card_More_Than_Months',	'Number_of_Dependents',	'Years_to_Financial_Freedom',	'Number_of_Credit_Card_Facility',	'Number_of_Properties'	,'Number_of_Bank_Products'	,'Number_of_Loan_to_Approve'	,'Years_for_Property_to_Completion'	,'Number_of_Side_Income',	'Monthly_Salary',	'Total_Sum_of_Loan',	'Total_Income_for_Join_Application'	,'Score']
