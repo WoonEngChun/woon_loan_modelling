@@ -50,7 +50,7 @@ if(button2):
         st.write("Score = ", DecisionScore[0])
         st.image('DecisionTree2.png', caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
 
-    if (str(states2) == '2'):
+    elif (str(states2) == '20'):
         st.write("Score = ", DecisionScore[1])
         st.image('DecisionTree20.png', caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
 
